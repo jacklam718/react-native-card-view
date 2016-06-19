@@ -6,14 +6,18 @@
     "type": "git",
     "url": "https://github.com/jacklam718/react-native-card-view.git"
   },
+  "description": "A react native card component",
   "keywords": [
-    "react",
     "react card",
     "react-native",
     "react-native-card-view",
     "react native card",
     "card",
-    "view"
+    "view",
+    "react-component",
+    "react-native",
+    "ios",
+    "android"
   ],
   "author": "Jack (jacklam718@gmail.com)",
   "license": "MIT",

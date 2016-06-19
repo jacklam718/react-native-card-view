@@ -1,6 +1,8 @@
 # React Native Card View
 Only tested in IOS, but I think should works in Android too.
 
+![Example](https://www.dropbox.com/s/44aildn3lhq9rik/react-native-card-view.gif?dl=1)
+
 # Install:
 npm install --save react-native-card-view
 
