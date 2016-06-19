@@ -62,3 +62,22 @@ const styles = StyleSheet.create({
   }
 });
 ```
+
+# Override Component Styles:
+### You can use you own style to override the following components style
+
+- cardImage
+- cardTitle
+- cardContent
+- cardAction
+
+You just pass an styles as an object and the key same as the component name
+
+### For example:
+const card      = {card: {width: 300, height: 300}};<br>
+const cardTitle = {cardTitle: {fontSize: 40}}
+
+```javascript
+<Card styles={card}></Card>
+<CardTitle styles={cardTitle} /></CardTitle>
+```
