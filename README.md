@@ -3,14 +3,14 @@ Only tested in IOS, but I think should works in Android too.
 
 ![Example](https://www.dropbox.com/s/44aildn3lhq9rik/react-native-card-view.gif?dl=1)
 
-# Install:
+## Install
 npm install --save react-native-card-view
 
 
-# Example:
-### <a href="https://github.com/jacklam718/react-native-card-view/blob/master/example/CardExample.js" target="_blank">Detailed example</a>
+## Example
+##### <a href="https://github.com/jacklam718/react-native-card-view/blob/master/example/CardExample.js" target="_blank">Detailed example</a>
 
-### Quick example
+##### Quick example here
 ```javascript
 import React, {Component} from 'react';
 import {
@@ -24,6 +24,8 @@ import {
   CardContent,
   CardAction
 } from 'react-native-card-view';
+
+import Button from 'react-native-button';
 
 Class Example extends Component {
   render () {
@@ -63,21 +65,20 @@ const styles = StyleSheet.create({
 });
 ```
 
-# Override Component Styles:
-### You can use you own style to override the following components style
-
+## Override Component Styles
+##### You can use you own style to override the following components style
 - cardImage
 - cardTitle
 - cardContent
 - cardAction
 
-You just pass an styles as an object and the key same as the component name
+You just pass the styles as an object and the key same as the component name
 
-### For example:
-const card      = {card: {width: 300, height: 300}};<br>
+##### Just like the following
+```javascript
+const card      = {card: {width: 300, height: 300}};
 const cardTitle = {cardTitle: {fontSize: 40}}
 
-```javascript
 <Card styles={card}></Card>
-<CardTitle styles={cardTitle} /></CardTitle>
+<CardTitle styles={cardTitle}></CardTitle>
 ```
