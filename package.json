@@ -1,0 +1,28 @@
+{
+  "name": "react-native-card-view",
+  "version": "0.0.1",
+  "main": "react-native-card-view.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacklam718/react-native-card-view.git"
+  },
+  "keywords": [
+    "react",
+    "react card",
+    "react-native",
+    "react-native-card-view",
+    "react native card",
+    "card",
+    "view"
+  ],
+  "author": "Jack (jacklam718@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacklam718/react-native-card-view/issues"
+  },
+  "homepage": "https://github.com/jacklam718/react-native-card-view",
+  "peerDependencies": {
+    "react": "^15.0.0",
+    "react-native": "^0.26.0"
+  }
+}
