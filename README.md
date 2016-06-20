@@ -67,10 +67,11 @@ const styles = StyleSheet.create({
 
 ## Override Component Styles
 ##### You can use you own style to override the following components style
-- cardImage
-- cardTitle
-- cardContent
-- cardAction
+- Card
+- CardImage
+- CardTitle
+- CardContent
+- CardAction
 
 You just pass the styles as an object and the key same as the component name
 
