@@ -1,6 +1,6 @@
 {
   "name": "react-native-card-view",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "react-native-card-view.js",
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/jacklam718/react-native-card-view",
   "peerDependencies": {
-    "react": "^15.0.0",
-    "react-native": "^0.26.0"
+    "react": ">=15.0.0",
+    "react-native": ">=0.26.0"
   }
 }
