@@ -15,10 +15,8 @@ class Card extends Component {
   render() {
     const newStyles = this.props.styles || {};
     return (
-      <View style={[styles.container, newStyles.container]}>
-        <View style={[styles.card, newStyles.card]}>
-          {this.props.children}
-        </View>
+      <View style={[styles.container, styles.card, newStyles.card]}>
+        {this.props.children}
       </View>
     );
   }
@@ -106,6 +104,7 @@ const styles = StyleSheet.create({
   cardContent: {
     paddingRight: 16,
     paddingLeft: 16,
+    paddingTop: 16,
     paddingBottom: 16,
   },
   cardAction: {
