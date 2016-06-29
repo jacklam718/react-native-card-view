@@ -3,6 +3,11 @@ Only tested in IOS, but I think should works in Android too.
 
 ![Example](https://www.dropbox.com/s/44aildn3lhq9rik/react-native-card-view.gif?dl=1)
 
+<br>
+
+##### The effects in my real project
+<img src="https://www.dropbox.com/s/kxkltgzwokxkr5k/IMG_0359.PNG?dl=1" width="300">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://www.dropbox.com/s/9seffjkig865fo0/IMG_0360.PNG?dl=1" width="300">
+
 ## Install
 npm install --save react-native-card-view
 
@@ -73,7 +78,7 @@ const styles = StyleSheet.create({
 - CardContent
 - CardAction
 
-You just pass the styles as an object and the key same as the component name
+You just pass the stytomles as an object and the key same as the component name
 
 ##### Just like the following
 ```javascript
