@@ -8,6 +8,8 @@ Only tested in IOS, but I think should works in Android too.
 ##### The effects in my real project
 <img src="https://www.dropbox.com/s/kxkltgzwokxkr5k/IMG_0359.PNG?dl=1" width="300">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://www.dropbox.com/s/9seffjkig865fo0/IMG_0360.PNG?dl=1" width="300">
 
+[Try it with Exponent](https://exp.host/@jacklam718/card-view-example)
+
 ## Install
 npm install --save react-native-card-view
 

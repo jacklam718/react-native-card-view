@@ -6,9 +6,11 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
+    "exponent": "10.0.0",
     "react": "^15.1.0",
-    "react-native": "0.27.2",
+    "react-native": "github:exponentjs/react-native#sdk-10.1.0",
     "react-native-button": "^1.6.0",
-    "react-native-card-view": "latest"
-  }
+    "react-native-card-view": "0.0.3"
+  },
+  "main": "main.js"
 }
