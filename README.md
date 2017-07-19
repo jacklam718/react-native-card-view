@@ -79,6 +79,7 @@ const styles = StyleSheet.create({
 - CardTitle
 - CardContent
 - CardAction
+- CardFooter
 
 You just pass the stytomles as an object and the key same as the component name
 
