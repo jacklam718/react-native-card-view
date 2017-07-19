@@ -55,6 +55,17 @@ class CardContent extends Component {
   }
 }
 
+class CardFooter extends Component {
+  render () {
+    const newStyles = this.props.styles || {};
+    return (
+      <View style={[styles.cardFooter, newStyles.cardFooter]}>
+        {this.props.children}
+      </View>
+    );
+  }
+}
+
 class CardAction extends Component {
   render () {
     const newStyles = this.props.styles || {};
@@ -102,10 +113,13 @@ const styles = StyleSheet.create({
     padding: 16
   },
   cardContent: {
-    paddingRight: 16,
-    paddingLeft: 16,
-    paddingTop: 16,
-    paddingBottom: 16,
+    padding: 16,
+  },
+  cardFooter: {
+    flex: 1,
+    backgroundColor: "#ccc",
+    flexDirection: 'row',
+    padding: 8
   },
   cardAction: {
     margin: 8,
@@ -125,6 +139,7 @@ export {
   CardTitle,
   CardAction,
   CardContent,
+  CardFooter,
   CardImage,
   Separator
 }
