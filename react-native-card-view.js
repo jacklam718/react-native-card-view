@@ -91,7 +91,8 @@ const styles = StyleSheet.create({
     shadowOffset: {
       height: 1,
       width: 0.3,
-    }
+    },
+    elevation : 4
   },
   cardImage: {
     flex: 1
